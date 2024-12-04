@@ -25,6 +25,9 @@ const liveServer = async () => {
         res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify({
             data: 'Hello World!',
+            name: "Artem",
+            surname: "Marchenko",
+            age: 18
         }));
     });
 
